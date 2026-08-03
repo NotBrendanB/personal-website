@@ -8,4 +8,4 @@ My personal portfolio site, built with HTML and CSS. Showcases my projects, incl
 
 ## Live Site
 
-[MY SITE](https://notbrendanb.github.io/Personal-Website)
+[MY SITE](https://notbrendanb.github.io/personal-website)
