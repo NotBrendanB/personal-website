@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        Brendan's Portfolio
+    </title>
+    
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <meta charset = "UTF-8">
+    <meta name="description" content="Brendan Barnes' Portfolio">
+    <meta name="keywords" content = "Portfolio, Projects, Resume">
+    <meta name = "author" content = "Brendan Barnes">
+    <meta name = viewport content = "width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/73a1927c64.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    
+    <section id =header>
+        <div>
+            
+        </div>
+        <div>
+            <h1 class="header-text">Brendan Barnes</h1>
+        </div>
+        <div id="socials">
+             <a href="https://www.linkedin.com/in/brendanebarnes/" target=_blank class="icon-link">
+                <i class="fa-brands fa-square-linkedin fa-2xl"></i>
+             </a>
+             <a href="https://github.com/NotBrendanB" target=_blank class="icon-link">
+                <i class="fa-brands fa-square-github fa-2xl"></i>
+             </a>
+             <a href="mailto:bbarnes67@gatech.edu" target=_blank class="icon-link">
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+             </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="intro-text" >
+            <h1>
+                Hello World!
+            </h1>
+            <h2>
+                I'm Brendan.
+            </h2>
+            <h5>
+                I'm a first year Electrical Engineering student at Georgia Tech and here's what I've been up to lately!
+            </h5>
+        </div>
+
+        <div>
+            <img id="graphic" src="background.png">
+        </div>
+    </section>
+    <section id="project-section">
+        
+        <h1 id="proj-title">
+            Personal Projects
+        </h1>
+            <section id = banana>
+            <div class = boxes>
+                <h1 style="font-family:'Space Grotesk';">
+                    Personal Voice Assistant
+                </h1>
+            <div style="display: flex; justify-content: center; gap: 40px;">
+                <div>
+                    <img style=height:300px; src="wilsun.png">
+                </div>
+                <div style="width: 50%;display: flex;align-items: center;">
+                    <p style="font-family: 'JetBrains Mono';">
+                        A desktop voice assistant built in Python with a clean CustomTkinter GUI. Push-to-talk mic input gets transcribed via Google's speech recognition, sent to Groq's Llama 3.3 for fast cloud inference, and the response is streamed back as speech through Edge-TTS — all in-memory, no temp audio files ever hit the disk.
+                    </p>
+                </div>
+            </div>
+                <a href="https://github.com/NotBrendanB/VoiceAssistant" target="_blank">
+                    <button class="source-button">
+                        View Source →
+                    </button>
+                </a>
+            </div>
+            <div class = boxes>
+                <h1 style="font-family: Space Grotesk;">
+                    Physics Simulation Sandbox
+                </h1>
+                <div style="display: flex; justify-content: center; gap: 40px;">
+                    <div>
+                        <img style=height:300px; src="physics.png">
+                    </div>
+                    <div style="width: 50%;display: flex;align-items: center;">
+                        <p style="font-family: 'JetBrains Mono';">
+                        A 2D physics playground built with Pygame. Simulates gravity and motion with wall collisions — floor has some bounce (elastic-ish), the rest are fully elastic. Bonus feature: fire music.
+                        </p>
+                    </div>
+                </div>
+                <a href="https://github.com/NotBrendanB/physics-sandbox" target="_blank">
+                    <button class="source-button">
+                        View Source →
+                    </button>
+                </a>
+            </div>
+            </section>
+        
+    </section>
+    
+</body>
+
+</html>
