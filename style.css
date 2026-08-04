@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #header{
     display:flex;
     justify-content: space-between;
@@ -110,4 +111,102 @@ body {
 }
 .source-button:hover{
     background-color: #69ac69;
+=======
+#header{
+    display:flex;
+    justify-content: space-between;
+}
+#socials{
+    display:flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.icon-link,
+.icon-link:link,
+.icon-link:visited,
+.icon-link:active,
+.icon-link i,      
+.icon-link svg {   
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+.header-text {
+    text-align: center;
+    font-family: "Space Grotesk";
+    
+}
+#graphic{
+    height: 400px;
+}
+.intro-text{
+    text-align: center;
+    padding: 20px;
+    font-family: 'JetBrains Mono';
+    font-size:xx-large;
+    background-color: rgba(255, 255, 255, .9);
+    border-style:solid;
+}
+#about{
+    display: flex;
+    align-items: center;      
+    justify-content: space-between; 
+    gap: 50px;                
+    padding: 80px 10%;
+    background-image: url(schematic.png);
+    min-height:77vh;
+}
+#proj-title{
+    border-top-style: solid;
+    margin-top: 0px;
+    font-family: "Space Grotesk";
+    font-size: 72px;
+}
+#project-section{
+    
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    background-size: 400%;
+    min-height: 100vh;
+    animation: myGradient 10s ease infinite;
+    text-align: center;
+
+}
+@keyframes myGradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+.boxes{
+    background-color: white;
+    width: 1250px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.boxes:nth-child(even) {
+    transform: translateX(42%);
+}
+.source-button{
+    background-color: lightgreen;
+    align-self: center;
+    border-radius: 250px;
+    font-size: x-large;
+    margin-top:10px ;
+    width: 25%;
+    border: none;
+    font-family: "JetBrains Mono";
+>>>>>>> 3d542d387d6c58dd96e731aea440d61a954aa765
 }
